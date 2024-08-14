@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+}
+nav {
+    height: 80px;
+}
+ul{
+    height: 100%;
+    background-color: rgb(7, 104, 143);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width : 410px) {
+
+    nav {
+        height: 200px;
+    }
+    ul {
+        flex-direction: column;
+        gap: 25px;
+    }
+}

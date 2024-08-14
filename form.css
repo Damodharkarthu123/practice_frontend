@@ -1,0 +1,134 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/905/045/small_2x/male-student-portrait-isolated-on-blue-background-pointing-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+label{
+    font-size: medium;
+    width: 150px;
+}
+form{
+    
+    height: 600px;
+    width: 500px;
+    background-color: transparent;
+    
+}
+fieldset{
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.xy{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 80px;
+}
+input {
+    width: 200px;
+}
+.gender {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.radio {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.radio input {
+    width: 20px;
+    margin: 0;
+}
+.skills {
+    width: 200px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+textarea {
+    width: 200px; }
+    .submit-reset {
+        width: 500px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 30px;
+    }
+@media only screen and (max-width:530px){
+    body {
+        width: 100%;
+    }
+        form {
+            height: 100vh;
+            width: 100%;
+        }
+        fieldset {
+            height: 100vh;
+            width: 100%;
+            border-width: 0;
+            margin: 0;
+        }
+        .xy {
+            width: 400px;
+        }
+        .submit-reset {
+            width: 400px;
+        }
+        .xy{
+            color: chartreuse;
+        }
+    }
+
+@media only screen and (max-width:400px){
+        .xy {
+            width: 300px;
+            gap: 40px;
+        }
+        fieldset {
+            width: 100%;
+        }
+        .submit-reset {
+            width: 300px;
+        }
+        input {
+            width: 100px;
+        }
+        .xy{
+            color: chocolate;
+        }
+    }
+
+    @media only screen and (max-width: 300px){
+        .xy {
+            width: 240px;
+        }
+        .submit-reset {
+            width: 240px;
+        }
+        .radio {
+            width: 70px;
+        }
+        .xy{
+            color: aqua;
+        }
+    }

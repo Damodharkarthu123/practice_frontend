@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.xy{
+    position: relative;
+    height:200px;
+    width:300px;
+    background-color: cadetblue;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.margin {
+    margin: 0;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+.do{
+    position: relative;
+    height:150px;
+    width:250px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    
+}
+.border{
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.pa{
+position: relative;
+height:100px;
+    width:150px;
+    background-color: chocolate;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   z-index: 100;
+}
+.he{
+    position: relative;
+    height:50px;
+    width:100px;
+    background-color: rgb(104, 90, 101);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+
+
+</style>
+
+<body style="margin: 0; height: 100vh; display: flex; align-items: center; justify-content: center;">
+    <div class="xy">
+        <h6 class="margin">marigin</h6>
+        <div class="do">
+            <h6 class="border">border</h6>
+            <div class="pa">
+                <h6 style="position: absolute; top: 4px; left: 4px; margin: 0;" >padding</h6>
+                <div class="he">
+                    <h6 >32.634x23</h6>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+    
+</body>
+</html>

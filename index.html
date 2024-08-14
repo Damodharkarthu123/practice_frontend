@@ -1,0 +1,74 @@
+<html>
+    <body>
+        <h3>
+            HTML FORMS</h3>
+            <form action="./submit.html" target="_blank" autocomplete="on" >
+                <fieldset> 
+                    <legend>the fieldset tag</legend>
+                    <label>student first name :</label><br>
+                    <input type="text" value = "hari darling" size="50"readonly autofocus><br>
+                    <label>student last name:</label><br>
+                    <input type="hideen" id="custid" name="custid" value="damodhar" disabled>
+                    <input type="text" value = ""><br><br>
+                    <label value="color">color</label>
+                    <select id="color" size="2" multiple>
+                    <option value="blue">Blue</option>
+                        <option value="red">red</option>
+                        <option value="green">green</option>
+                    </select>
+                     <label value="ssittask">ssittask</label>
+                    <textarea name="message" rows="20" cols="60">the software developer</textarea ><br><br>
+                        <label for="heros">forever heros</label>
+                        <input list="heros">
+                        <datalist id="heros">
+                            <option value="hari">hari</option>
+                            <option value="dhamu">dhamu</option>
+                            <option value="suresh">suresh</option>
+                        </datalist><br><br>
+                        <label for="username">Username:</label><br>
+                        <input type="text" id="username" name="username"><br><br>
+                            <label for="pwd">Password:</label><br>
+                          <input type="password" id="pwd" name="pwd"><br>
+                          <input type="radio" id="sunny" name=fav heroine value="sunny" >
+                          <label for="sunny">sunny</label>
+                          <input type="radio" id="leone" name=fav heroine value="leone">
+                          <label for="leone">leone</label>
+                          <input type="checkbox" id="best frnds" value="frnd" value="best frnds">
+                          <label for="best frnds">best frnds </label>
+                          <input type="checkbox"id=normal frnds value="frnds" value="normal frnds" >
+                          <label for="normal frnds">normal frnds</label>
+                          <label for="favcolor">Select your favorite color:</label>
+                          <input type="color" id="favcolor" name="favcolor" >
+                          <label for="birthday">birthday</label>
+                          <input type="date" id="birthday" name="birthday">
+                          <label for="birthdaytime">Birthday (date and time):</label>
+                          <input type="datetime-local" id="birthdaytime" name="birthdaytime" >
+                          <label for="email">your email</label>
+                          <input type="email" id="email" value="" maxlength="100" size="100">
+                          <label for="myfile">Select a file:</label>
+                          <input type="file" id="myfile" name="myfile" multiple>
+                          <label for="birtdaymonth">birthday month</label>
+                          <input type="month" id="birthdaymonth" name="birthdaymonth">
+                          <label for="vol">Volume (between 0 and 50):</label>
+                          <input type="range" id="vol" name="vol" min="0" max="50">
+                          <label for="phone">enter your phone number</label>
+                          <input type="tel" id="phone" name="phone" required>
+                          <label for="phone">enter your phone number</label>
+                          <input type="tel" id="phone" name="phone">
+                          <label for="appt">time</label>
+                          <input type="time" id="time" name="time">
+                          <label for="week">set the week</label>
+                          <input type="week" id="week" name="week">
+                          <label for="country">Country code:</label>
+                          <input type="number" id="country" name="country" placeholder="123456789"
+                          pattern="[1-10]{20}" title="twenty numbers country code">
+                          <label for="points">Points:</label>
+                          <input type="number" id="points" name="points" step="3">
+                         <input type="submit"  value="submit" width="30"><br>
+                         <input type="reset" valie="reset">
+                        </fieldset>
+                       
+                
+            </form> 
+    </body>
+</html>
